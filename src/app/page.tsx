@@ -33,6 +33,7 @@ export default function Home() {
     { src: '/projects/4skt.png', name: '4SKT', link: '#' },
     { src: '/projects/lawliet.png', name: 'Lawliet', link: '#' },
     { src: '/projects/supremo.png', name: 'Supremo', link: '#' },
+    { src: '/projects/dentist.png', name: 'SorriBem', link: '#'},
   ];
 
   const solutions = [
