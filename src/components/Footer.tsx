@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Me siga nas redes sociais</h3>
           <div className="flex space-x-4">
-            <a href="www.linkedin.com/in/wilsonsousajúnior" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/wilsonsousajúnior" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-white transition-colors">
               <FaLinkedin size={24} />
             </a>
             <a href="https://www.instagram.com/_.hotwills._/" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-white transition-colors">

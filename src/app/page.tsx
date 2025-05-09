@@ -33,6 +33,7 @@ export default function Home() {
     { src: '/projects/4skt.png', name: '4SKT', link: '#' },
     { src: '/projects/lawliet.png', name: 'Lawliet', link: '#' },
     { src: '/projects/supremo.png', name: 'Supremo', link: '#' },
+    { src: '/projects/dentist.png', name: 'SorriBem', link: '#'},
   ];
 
   const solutions = [
@@ -53,7 +54,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center justify-between w-full px-4 md:px-8 lg:px-24 py-16 md:py-24" id='hero-section'>
           <div className="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-poppins mb-6 flex flex-wrap items-baseline justify-center md:justify-start">
-              <span className="mr-2">Eu faço <span className="text-zinc-400">{'{código}'}</span> e o transformo em<br/></span>
+              <span className="mr-2 text-white">Eu faço <span className="text-zinc-400">{'{código}'}</span> e o transformo em<br/></span>
               <Typewriter words={typewriterWords} className="inline-block align-baseline" />
             </h1>
 
