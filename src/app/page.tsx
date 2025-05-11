@@ -169,7 +169,7 @@ export default function Home() {
             Se você busca um site que não só impressione, mas que também traga resultados reais, estou aqui para ajudar.
             </p>
             <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
-              <Link href="/about" passHref>
+              <Link href="/sobre" passHref>
                 <button className="border border-neutral-900 bg-transparent text-neutral-900 rounded-full px-6 py-3 font-semibold hover:bg-neutral-900 hover:text-white transition-colors duration-300 ease-in-out w-full sm:w-auto cursor-pointer">
                   Mais sobre mim
                 </button>
