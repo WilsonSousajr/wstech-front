@@ -33,8 +33,8 @@ export default function SobrePage() {
     },
     {
       title: "Full Stack Developer",
-      company: "CJR",
-      period: "Dez 2023 - Set 2025",
+      company: "The Natural Language Institute",
+      period: "Dez 2023 - Set 2024",
       description:
         "Desenvolvimento contínuo de novas funcionalidades para uma plataforma de ensino de idiomas, contribuindo diretamente para o aumento da satisfação dos usuários. Correção de bugs críticos e aprimoramento da estabilidade e escalabilidade do sistema. Manutenção e evolução de sistemas internos e externos, otimizando processos operacionais da empresa. Prestação de suporte técnico a professores e colaboradores, garantindo fluidez no uso das soluções digitais.",
       skills: "Python · Django · JavaScript · jQuery · Bootstrap",

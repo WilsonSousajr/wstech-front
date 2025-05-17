@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Typewriter from '@/components/Typewriter';
 import ProjectCard from '@/components/ProjectCard';
 import CTAButton from '@/components/CTAButton';
-import { FaBullseye, FaShoppingCart, FaBuilding, FaBriefcase, FaNewspaper, FaStore, FaArrowRight } from 'react-icons/fa';
+import { FaBullseye, FaShoppingCart, FaBuilding, FaBriefcase, FaNewspaper, FaStore, FaArrowRight, FaLightbulb, FaMobileAlt, FaCogs } from 'react-icons/fa';
 import Link from 'next/link';
 import GradientButton from '@/components/GradientButton'; 
 import OutlineGradientButton from '@/components/OutlineGradientButton'; 
@@ -43,6 +43,9 @@ export default function Home() {
     { icon: <FaBriefcase className="w-10 h-10 text-yellow-500"/>, title: 'Site de Portfólio', description: 'Exiba seu trabalho e habilidades de forma elegante com um site de portfólio personalizado que destaca seus melhores projetos.' },
     { icon: <FaNewspaper className="w-10 h-10 text-red-500"/>, title: 'Blog / Portal de Notícias', description: 'Engaje seu público e estabeleça autoridade com um blog ou portal de notícias dinâmico com conteúdo atualizado.' },
     { icon: <FaStore className="w-10 h-10 text-indigo-500"/>, title: 'E-commerce', description: 'Lance sua loja online e alcance um mercado mais amplo com uma plataforma de e-commerce segura, escalável e fácil de usar.' },
+    { icon: <FaLightbulb className="w-10 h-10 text-yellow-400"/>, title: 'Consultoria', description: 'Receba orientação especializada para otimizar sua presença online e estratégias digitais, garantindo melhores resultados.' },
+    { icon: <FaMobileAlt className="w-10 h-10 text-sky-500"/>, title: 'Aplicativos', description: 'Desenvolva aplicativos móveis intuitivos e performáticos para iOS e Android, expandindo o alcance da sua marca.' },
+    { icon: <FaCogs className="w-10 h-10 text-gray-500"/>, title: 'Software sob Demanda', description: 'Crie soluções de software personalizadas para atender às necessidades específicas do seu negócio, automatizando processos e aumentando a eficiência.' },
   ];
 
   return (
