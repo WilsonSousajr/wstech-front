@@ -34,8 +34,8 @@ body {
     content: '';
     position: absolute;
     top: 0;
-    left: -100%; 
-    width: 50%; 
+    left: -100%;
+    width: 50%;
     height: 100%;
     background: linear-gradient(
       120deg,
@@ -48,6 +48,6 @@ body {
   }
 
   .btn-reflect:hover::before {
-    left: 150%; 
+    left: 150%;
   }
 }

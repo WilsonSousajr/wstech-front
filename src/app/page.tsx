@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Typewriter from '@/components/Typewriter';
 import ProjectCard from '@/components/ProjectCard';
 import CTAButton from '@/components/CTAButton';
-import { FaBullseye, FaShoppingCart, FaBuilding, FaBriefcase, FaNewspaper, FaStore, FaArrowRight } from 'react-icons/fa';
+import { FaBullseye, FaShoppingCart, FaBuilding, FaBriefcase, FaNewspaper, FaStore, FaArrowRight, FaLightbulb, FaMobileAlt, FaCogs } from 'react-icons/fa';
 import Link from 'next/link';
 import GradientButton from '@/components/GradientButton'; 
 import OutlineGradientButton from '@/components/OutlineGradientButton'; 
@@ -34,6 +34,8 @@ export default function Home() {
     { src: '/projects/lawliet.png', name: 'Lawliet', link: '#' },
     { src: '/projects/supremo.png', name: 'Supremo', link: '#' },
     { src: '/projects/dentist.png', name: 'SorriBem', link: '#'},
+    { src: '/projects/psicologa.png', name: 'Psicologa Silva', link: '#'},
+    { src: '/projects/clinica.png', name: 'Mente Sã', link: '#'},
   ];
 
   const solutions = [
@@ -43,6 +45,9 @@ export default function Home() {
     { icon: <FaBriefcase className="w-10 h-10 text-yellow-500"/>, title: 'Site de Portfólio', description: 'Exiba seu trabalho e habilidades de forma elegante com um site de portfólio personalizado que destaca seus melhores projetos.' },
     { icon: <FaNewspaper className="w-10 h-10 text-red-500"/>, title: 'Blog / Portal de Notícias', description: 'Engaje seu público e estabeleça autoridade com um blog ou portal de notícias dinâmico com conteúdo atualizado.' },
     { icon: <FaStore className="w-10 h-10 text-indigo-500"/>, title: 'E-commerce', description: 'Lance sua loja online e alcance um mercado mais amplo com uma plataforma de e-commerce segura, escalável e fácil de usar.' },
+    { icon: <FaLightbulb className="w-10 h-10 text-yellow-400"/>, title: 'Consultoria', description: 'Receba orientação especializada para otimizar sua presença online e estratégias digitais, garantindo melhores resultados.' },
+    { icon: <FaMobileAlt className="w-10 h-10 text-sky-500"/>, title: 'Aplicativos', description: 'Desenvolva aplicativos móveis intuitivos e performáticos para iOS e Android, expandindo o alcance da sua marca.' },
+    { icon: <FaCogs className="w-10 h-10 text-gray-500"/>, title: 'Software sob Demanda', description: 'Crie soluções de software personalizadas para atender às necessidades específicas do seu negócio, automatizando processos e aumentando a eficiência.' },
   ];
 
   return (
@@ -117,7 +122,7 @@ export default function Home() {
         <div className="w-full flex justify-center mt-12 px-4"> 
           <Link href="/solutions" passHref>
             <button className="border border-neutral-900 bg-transparent text-neutral-900 rounded-full px-6 py-3 font-semibold hover:bg-neutral-900 hover:text-white transition-colors duration-300 ease-in-out w-full sm:w-auto cursor-pointer">
-              Explorar soluções
+              QUERO TIRAR MEU PROJETO DO PAPEL
             </button>
           </Link>
         </div>
@@ -169,7 +174,7 @@ export default function Home() {
             Se você busca um site que não só impressione, mas que também traga resultados reais, estou aqui para ajudar.
             </p>
             <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
-              <Link href="/about" passHref>
+              <Link href="/sobre" passHref>
                 <button className="border border-neutral-900 bg-transparent text-neutral-900 rounded-full px-6 py-3 font-semibold hover:bg-neutral-900 hover:text-white transition-colors duration-300 ease-in-out w-full sm:w-auto cursor-pointer">
                   Mais sobre mim
                 </button>
