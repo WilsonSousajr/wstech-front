@@ -34,6 +34,8 @@ export default function Home() {
     { src: '/projects/lawliet.png', name: 'Lawliet', link: '#' },
     { src: '/projects/supremo.png', name: 'Supremo', link: '#' },
     { src: '/projects/dentist.png', name: 'SorriBem', link: '#'},
+    { src: '/projects/psicologa.png', name: 'Psicologa Silva', link: '#'},
+    { src: '/projects/clinica.png', name: 'Mente Sã', link: '#'},
   ];
 
   const solutions = [
@@ -120,7 +122,7 @@ export default function Home() {
         <div className="w-full flex justify-center mt-12 px-4"> 
           <Link href="/solutions" passHref>
             <button className="border border-neutral-900 bg-transparent text-neutral-900 rounded-full px-6 py-3 font-semibold hover:bg-neutral-900 hover:text-white transition-colors duration-300 ease-in-out w-full sm:w-auto cursor-pointer">
-              Explorar soluções
+              QUERO TIRAR MEU PROJETO DO PAPEL
             </button>
           </Link>
         </div>
